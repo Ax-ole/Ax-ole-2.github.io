@@ -1,1 +1,55 @@
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash Royale Wiki</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index_Main.css">
+</head>
+<body>
+    <header>
+        <h1>Clash Royale Wiki</h1>
+		<nav>
+            <a href="cardInfo.html">Card Information</a>
+            <a href="strats.html">Strategies</a>
+            <a href="forum.html">Forum</a>
+        </nav>
+    </header>
+
+    <section>
+        <p>Welcome to the Clash Royale Wiki, your source for Clash Royale information! I am Axe, your web tour guide, and
+        I am so excited you are here. This is one of my favorite games, and it happens to be on a mobile device. Who knew? I sure did not, but enough about me.</p>
+        <p>This wiki will hopefully provide you with details about cards, real-time updated strategies about each Meta, and a bit more!</p>
+    </section>
+ 
+    <section id="youtube-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VbR4Hs2zApU?list=UULF_F8DoJf9MZogEOU51TpTbQ" frameborder="0" allowfullscreen></iframe>
+    </section>
+    
+    <section>
+    <h3>This is a window that displays actual YouTube videos directly from their own Official page. So you can see what is new every time you use this Wiki.</h3>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Clash Royale Wiki. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        $(document).ready(function () {
+            $('nav a').hover(
+                function () {  
+                    $(this).css('color', 'red'); 
+                },
+                function () {
+                    $(this).css('color', ''); 
+                }
+            );
+        });
+    </script>
+</body>
+</html>
+
